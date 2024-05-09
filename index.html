@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <title>CryptoView</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <section>
+            <nav class="px-[5%] py-[1%] flex items-center justify-between">
+                <div class="flex items-center">
+                    <img class="w-[45px]" src="./assets/logo.png" alt="logo">
+                    <p class="text-4xl font-[700] ml-[5px] text-white">CryptoView</p>
+                </div>
+                <div class="flex justify-between bg-[#ededed] pl-[2%] rounded-[50px] w-[40%]">
+                    <input type="text" class="border-none bg-transparent text-[14px] w-[100%] focus:outline-none" placeholder="search here...">
+                    <button id="searchbtn" class="rounded-[50px] bg-[#272e5c] hover:bg-[#414871] text-white h-[100%] py-[2%] px-[5%]">Search</button>
+                </div>
+            </nav>
+        </section>
+        <section class="pt-[3%] px-[5%]">
+            <div class="hero flex items-center justify-center">
+                <div class="p-[3%] w-[50%]">
+                    <h2 class="text-6xl font-[700] text-white">CryptoView</h2>
+                    <p class="text-[18px] text-white mt-[15px]">A platform to view information about all cryptocurrencies live.</p>
+                </div>
+                <div class="p-[3%] app-img w-[50%] flex items-center justify-center">
+                    <div>
+                        <img class="w-[280px]" src="./assets/hero-usd.webp" alt="cryptoview application">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-[8%]">
+            <div class="flex flex-col items-center justify-center">
+                <h2 class="text-sky-400 text-xl font-[500] text-center">CRYPTOVIEW PRICES</h2>
+                <p class="mt-[2%] text-white text-7xl font-[500] text-center px-[20%]">Buy Bitcoin, Ethereum, and 350+ cryptocurrencies</p>
+                <button class="border-[2px] border-white bg-transparent text-center mt-[3%] rounded-[35px] text-white text-[20px] px-[2%] py-[10px] hover:bg-gray-100/5">Check Crypto Prices</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

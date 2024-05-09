@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #010118;
+}
+.app-img{
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(45.87% 50% at 50% 50%, #3763C1 0%, rgba(35, 70, 157, 0.5) 38.39%, rgba(20, 43, 114, 0) 100%);
+}
