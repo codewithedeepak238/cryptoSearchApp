@@ -1,3 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --tw-gradient-from: #9747ff;
+    --tw-gradient-from-position: 0%;
+    --tw-gradient-via: #2f80ed;
+    --tw-gradient-via-position: 50%;
+    --tw-gradient-to: #ee216b;
+    --tw-gradient-to-position: 100%;
+    --tw-gradient-stops: var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+  }
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+  }
+  
 *{
     box-sizing: border-box;
     padding: 0;
@@ -10,4 +36,8 @@ body{
     position: relative;
     overflow: hidden;
     background: radial-gradient(45.87% 50% at 50% 50%, #3763C1 0%, rgba(35, 70, 157, 0.5) 38.39%, rgba(20, 43, 114, 0) 100%);
+}
+
+.item-box{
+  box-shadow: 2px 2px 15px rgba(55, 99, 193, 0.4);
 }
