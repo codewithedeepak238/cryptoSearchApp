@@ -91,7 +91,7 @@ searchbtn.addEventListener("click", handleSubmit);
 
 function handleSubmit(){
     if(input.value){
-        window.location.href = `https://search.html?search=${input.value}`;
+        window.location.href = `search.html?search=${input.value}`;
         input.value = "";
     }
 }
