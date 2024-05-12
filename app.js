@@ -25,7 +25,7 @@ function showTopCoin (data){
         <p class="text-[32px] font-[500]">$${ele.marketCapUsd.slice(0, 4)}</p>
         <p class="text-[17px] font-[400] text-amber-500">${ele.changePercent24Hr.slice(0, 4)}%</p>
         <p class="text-[18px] font-[400]">$${ele.volumeUsd24Hr.slice(0, 4)}</p>
-        <button class="border-[1px] border-transparent hover:border-white hover:bg-transparent hover:text-white  bg-white text-black font-[500] rounded-[26px] px-[2.5%] py-[0.8%]">Trade</button>
+        <button onclick="handleInfo('${ele.id}')" id="more-info" class="border-[1px] border-transparent hover:border-white hover:bg-transparent hover:text-white  bg-white text-black font-[500] rounded-[26px] px-[2.5%] py-[0.8%]">Trade</button>
     </div> `
         coinSection.appendChild(div);
     })
@@ -39,6 +39,3 @@ function handleSubmit(){
         input.value = "";
     }
 }
-
-
-
