@@ -91,7 +91,7 @@ searchbtn.addEventListener("click", handleSubmit);
 
 function handleSubmit(){
     if(input.value){
-        window.location.href = `http://127.0.0.1:5500/search.html?search=${input.value}`;
+        window.location.href = `https://search.html?search=${input.value}`;
         input.value = "";
     }
 }

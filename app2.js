@@ -43,7 +43,7 @@ searchbtn.addEventListener("click", handleSubmit);
 
 function handleSubmit(){
     if(input.value){
-        window.location.href = `http://127.0.0.1:5500/search.html?search=${input.value}`;
+        window.location.href = `https://search.html?search=${input.value}`;
         input.value = "";
     }
 }
@@ -53,5 +53,5 @@ function handleSubmit(){
 
 function handleInfo(){
     console.log("clicked")
-    window.location.href = `http://127.0.0.1:5500/result.html?search=${searchData.id}`;
+    window.location.href = `https://result.html?search=${searchData.id}`;
 }
